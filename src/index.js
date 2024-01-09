@@ -1,3 +1,4 @@
+import h from 'hyperscript'
 import { registerImage } from "./lazy";
 
 // crear (1) imagen
