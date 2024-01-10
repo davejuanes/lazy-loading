@@ -36,7 +36,7 @@ const mountNode = document.getElementById('images')
 const addButton = document.querySelector('button')
 const addImagen = () => {
     const newImage = createImageNode()
-    mountNode.appendChild(newImage)
+    mountNode.appendChild(newImage).getElementByDa
     registerImage(newImage)
 };
 addButton.addEventListener('click', addImagen)
